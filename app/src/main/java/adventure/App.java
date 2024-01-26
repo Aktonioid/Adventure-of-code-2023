@@ -3,12 +3,15 @@
  */
 package adventure;
 
-public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
+import java.io.IOException;
 
-    public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+import adventure.days.day_1.DayOneSolution;
+
+public class App {
+  
+
+    public static void main(String[] args) throws IOException 
+    {
+        System.out.println(DayOneSolution.SolutionPartTwo());
     }
 }
