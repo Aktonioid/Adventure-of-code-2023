@@ -5,7 +5,7 @@ package adventure;
 
 import java.io.IOException;
 
-import adventure.days.day_5.DayFiveSolution;
+import adventure.days.day_7.DaySevenSolution;
 
 
 public class App {
@@ -14,6 +14,6 @@ public class App {
     public static void main(String[] args) throws IOException 
     {
 
-        System.out.println(DayFiveSolution.PartOneSolution());
+        System.out.println(DaySevenSolution.partOneSolution());
     }
 }
